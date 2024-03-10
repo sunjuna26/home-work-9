@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:"open sans" sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#02918c;
+}
+ul{
+    display: flex;
+    list-style: none;
+
+}
+a{
+    font-size: 13px;
+    line-height: 58px;
+    text-decoration:none ;
+    font-weight: 800;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 0 25px;
+}
+.full{
+    background-color: #02918c;
+}
+.box{
+    width: 1170px;
+    margin: 0 auto;
+}
